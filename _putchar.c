@@ -11,3 +11,20 @@ int _putchar(char c)
 {
 return (write(1, &c, 1));
 }
+
+/**
+ * _puts - writes a string to the standard output
+ * @string: The string to be printed
+ * Return: The number of characters printed (excluding null byte)
+ */
+int _puts(char *string)
+{
+	int c = 0;
+
+	while (*string)
+	{
+		count += _putchar(*string);
+		string++;
+	}
+	return (c);
+}
