@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * print_rot13 - printf string to rot13
- * @argmnt: argument string
+ * @R: argument string
  * Return: number
  */
-int print_rot13(va_list argmnt)
+int print_rot13(va_list R)
 {
 	int a, b, number = 0;
 	int k = 0;
-	char *s = va_arg(argmnt, char*);
+	char *s = va_arg(R, char*);
 	char alpha[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
 		'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
 		'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
