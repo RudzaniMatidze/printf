@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 		}
 		else if (format[a + 1] == 's')
 		{
-			str_cnt = _putss(va_arg(argmnt, char *));
+			str_cnt = _puts(va_arg(argmnt, char *));
 			a++;
 			cnt += (str_cnt - 1);
 		}
