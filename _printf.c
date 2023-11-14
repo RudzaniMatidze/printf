@@ -44,10 +44,3 @@ int _printf(const char *format, ...)
 	va_end(argmnt);
 	return (cnt);
 }
-
-int main() {
-    int result = _printf("Hello, %s! Today is %c\n", "world", 'A');
-    _printf("Number of characters printed: %d\n", result);
-
-    return 0;
-}
