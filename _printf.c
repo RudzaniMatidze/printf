@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
-
+#include <stdio.h>
+#include <limits.h>
 /**
  * _printf - Produces output according to a format
  * @format: Specified format
