@@ -12,5 +12,6 @@ int _putss(char *s);
 int print_rot13(va_list argmnt);
 int print_integers(va_list args);
 int print_decimals(va_list args);
+int print_binry(va_list b);
 
 #endif
